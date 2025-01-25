@@ -9,16 +9,21 @@ Evaluation Metrics: Performance evaluation using metrics such as accuracy, preci
 Cross-Validation: Ensures that the model generalizes well to unseen data through cross-validation.
 # Technologies Used 🛠️
 Python
-Pandas, NumPy (Data Processing)
+
+Pandas (Data Processing)
+
+NumPy (Data Processing)
+
 Scikit-Learn (Machine Learning Algorithms)
-Matplotlib, Seaborn (Visualization)
+
+Matplotlib (Visualization)
+
+Seaborn (Visualization)
+
 Jupyter Notebook
 # Setup 🚀
 # Clone the repository:
 git clone https://github.com/vinothkumar447/Multiple-Disease-Prediction-Analysis
-# Install the required dependencies:
-pip install -r requirements.txt
-Run the notebook or Python script to start prediction.
 # Future Improvements 🔮
 Deep Learning Models: Implement advanced deep learning techniques for higher accuracy.
 Real-time Prediction: Incorporate a web application for real-time disease prediction.
