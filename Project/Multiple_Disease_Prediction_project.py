@@ -11,9 +11,9 @@ def load_model(model_path):
         return pickle.load(file)
 
 # Load models
-Kidney_model = load_model("C:\Multiple Disease prediction.Project\Pickle File\kidney.pkl")
-liver_model = load_model("C:\Multiple Disease prediction.Project\Pickle File\liver.pkl")
-parkinson_model = load_model("C:\Multiple Disease prediction.Project\Pickle File\parkinsons_model.pkl")
+Kidney_model = load_model("Pickle File\kidney.pkl")
+liver_model = load_model("Pickle File\liver.pkl")
+parkinson_model = load_model("Pickle File\parkinsons_model.pkl")
 
 # CSS to set a background image
 def set_background(image_path):
