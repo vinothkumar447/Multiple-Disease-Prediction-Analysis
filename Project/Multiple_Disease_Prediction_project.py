@@ -77,7 +77,8 @@ with st.sidebar:
     )
 
 if selected_model == "Home":
-    background_image_url = "C:/Multiple Disease prediction.Project/BG_Images/Multiple_Disease_Prediction_System.jpg"
+    background_image_url ="images/background_image.jpg"
+
     set_background(background_image_url)
 # Display content based on the selected option
 # if selected_model == "Home":
@@ -119,7 +120,7 @@ def display_result(condition_name, prediction, advice):
         st.write(f"💡 **Advice**: {advice}")
 
 if selected_model == "Liver Prediction":
-    background_image_url = "C:/Multiple Disease prediction.Project/BG_Images/liver_disease_prediction.jpg"
+    background_image_url ="images/background_image.jpg"
     set_background(background_image_url)
 
 # Liver Disease Prediction
@@ -157,7 +158,7 @@ if selected_model == "Liver Prediction":
 # Kidney Disease Prediction
 
 elif selected_model == "Kidney Prediction":
-    background_image_url = "C:/Multiple Disease prediction.Project/BG_Images/kidney_disease_prediction.jpg"
+    background_image_url ="images/background_image.jpg"
     set_background(background_image_url)
 
 # elif selected_model == 'Kidney Prediction':
@@ -219,7 +220,7 @@ elif selected_model == "Kidney Prediction":
 # Parkinson Disease Prediction
 
 elif selected_model == "Parkinsons Prediction":
-    background_image_url = "C:/Multiple Disease prediction.Project/BG_Images/Parkinson's.jpg"
+    background_image_url ="images/background_image.jpg"
     set_background(background_image_url)
 
 # elif selected_model == 'Parkinsons Prediction':
